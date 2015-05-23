@@ -3,67 +3,64 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Ripple-Effect by santoshanand</title>
+    <title>Ripple-Effect by Santosh Anand</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="ripple/lib/kube/css/kube.css" />
+    <link rel="stylesheet" href="ripple/css/doc.css" />
+    <link rel="stylesheet" href="ripple/ripple-effect/ripple.css" />
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/santoshanand/ripple-effect/master/lib/kube/css/kube.css" />
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/santoshanand/ripple-effect/master/css/doc.css" />
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/santoshanand/ripple-effect/master/ripple-effect/ripple.css" />
 </head>
 
 <body>
-    <section class="page-header">
-        <h1 class="project-name">Ripple-Effect</h1>
-        <h2 class="project-tagline">Add google Google Material Design ripple effect to your component.</h2>
-        <a href="https://github.com/santoshanand/ripple-effect" class="btn">View on GitHub</a>
-        <a href="https://github.com/santoshanand/ripple-effect/zipball/master" class="btn">Download .zip</a>
-        <a href="https://github.com/santoshanand/ripple-effect/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <div class="units-row ripple-effect unit-100">
+        <section class="page-header">
+            <div class="project-name">Ripple-Effect</div>
+            <div class="project-tagline">Add Google Material Design ripple effect to your component.</div>
+            <a href="https://github.com/santoshanand/ripple-effect" class="btn">View on GitHub</a>
+            <a href="https://github.com/santoshanand/ripple-effect/zipball/master" class="btn">Download .zip</a>
+            <a href="https://github.com/santoshanand/ripple-effect/tarball/master" class="btn">Download .tar.gz</a>
+        </section>
+    </div>
     <section class="main-content">
         <h3>
-<a id="welcome-to-ripple-effect" class="anchor" href="#welcome-to-ripple-effect" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Ripple-Effect.</h3>
-        <p>This is a buautiful way to make ripple effect.</p>
+<a id="welcome-to-ripple-effect" class="anchor" href="#welcome-to-ripple-effect" aria-hidden="true"><span class="octicon octicon-link"></span></a>A buautiful way to make ripple effect</h3>
+        <p>Download the zip code extract it on your local drive and then open <code>index.html</code> file on your browser.</p>
+        <p>You can clone git repository and play with it.</p>
         <pre><code>$ git clone https://github.com/santoshanand/ripple-effect.git
 $ cd ripple-effect
-$ bower install &amp; npm install 
-$ grunt serve
+$ open index.html
 </code></pre>
-        <p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
         <h3>
 <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples</h3>
-
-    <div class="main">
         <div class="units-row">
             <div class="unit-100 heading">
-                <h5>Ripple Effect on div example</h5>
+                <h5 class="margin0">Ripple Effect on div example</h5>
             </div>
         </div>
         <div class="units-row">
             <div class="unit-50 c-row ripple-effect">I am a div, click on me to see the result</div>
             <div class="unit-50 c-row ripple-effect">I am button</div>
         </div>
-
         <div class="units-row">
             <div class="unit-100 heading">
-                <h5>Ripple Effect on image example</h5>
+                <h5 class="margin0">Ripple Effect on image example</h5>
             </div>
         </div>
         <div class="units-row">
             <div class="unit-100 ripple-effect">
-              <a href="#"><img src="https://c4.staticflickr.com/8/7027/6736839099_5e41920fdf_b.jpg"></a>
+                <a href="javascript:void(0)"><img src="https://c4.staticflickr.com/8/7027/6736839099_5e41920fdf_b.jpg"></a>
             </div>
         </div>
-
-    </div>
-        
+        <footer>
+            Image by <a href="https://www.flickr.com/photos/trudie-s/">Trudie S</a>
+        </footer>
     </section>
-    <script type="text/javascript" src="https://raw.githubusercontent.com/santoshanand/ripple-effect/master/lib/jquery/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="https://raw.githubusercontent.com/santoshanand/ripple-effect/master/ripple-effect/ripple.js"></script>
-    <script type="text/javascript" src="https://raw.githubusercontent.com/santoshanand/ripple-effect/master/lib/kube/js/kube.js"></script>
+    <script type="text/javascript" src="ripple/lib/jquery/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="ripple/ripple-effect/ripple.js"></script>
+    <script type="text/javascript" src="ripple/lib/kube/js/kube.js"></script>
     <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
