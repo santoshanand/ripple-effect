@@ -1,0 +1,36 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #eee;
+}
+.main {
+  margin: auto;
+  max-width: 800px;
+  padding: 0 20px;
+  padding-top: 50px;
+}
+.c-row {
+  text-align: center;
+  font-size: .85em;
+  background-color: #009688;
+  padding: 15px 0;
+  color: rgba(255,255,255,0.85);
+  line-height: 1;
+  cursor: default;
+}
+.heading {
+  text-align: center;
+  background-color: #F5F5F5;
+  padding: 14px 0;
+  color: rgba(255,255,255,0.85);
+}
+
+.color-row {
+  text-align: center;
+  background-color: #03A9F4;
+  padding: 14px 0;
+  color: rgba(255,255,255,0.85);
+  height: 300px;
+}
+.heading h5 {
+  margin: 0px;  
+}
