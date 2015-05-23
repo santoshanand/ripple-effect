@@ -9,6 +9,10 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/santoshanand/ripple-effect/master/lib/kube/css/kube.css" />
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/santoshanand/ripple-effect/master/css/doc.css" />
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/santoshanand/ripple-effect/master/ripple-effect/ripple.css" />
 </head>
 
 <body>
@@ -22,7 +26,7 @@
     <section class="main-content">
         <h3>
 <a id="welcome-to-ripple-effect" class="anchor" href="#welcome-to-ripple-effect" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Ripple-Effect.</h3>
-        <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+        <p>This is a buautiful way to make ripple effect.</p>
         <pre><code>$ git clone https://github.com/santoshanand/ripple-effect.git
 $ cd ripple-effect
 $ bower install &amp; npm install 
@@ -30,12 +34,36 @@ $ grunt serve
 </code></pre>
         <p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
         <h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-        <p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-        <h3>
-<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-        <p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples</h3>
+
+    <div class="main">
+        <div class="units-row">
+            <div class="unit-100 heading">
+                <h5>Ripple Effect on div example</h5>
+            </div>
+        </div>
+        <div class="units-row">
+            <div class="unit-50 c-row ripple-effect">I am a div, click on me to see the result</div>
+            <div class="unit-50 c-row ripple-effect">I am button</div>
+        </div>
+
+        <div class="units-row">
+            <div class="unit-100 heading">
+                <h5>Ripple Effect on image example</h5>
+            </div>
+        </div>
+        <div class="units-row">
+            <div class="unit-100 ripple-effect">
+              <a href="#"><img src="https://c4.staticflickr.com/8/7027/6736839099_5e41920fdf_b.jpg"></a>
+            </div>
+        </div>
+
+    </div>
+        
     </section>
+    <script type="text/javascript" src="https://raw.githubusercontent.com/santoshanand/ripple-effect/master/lib/jquery/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="https://raw.githubusercontent.com/santoshanand/ripple-effect/master/ripple-effect/ripple.js"></script>
+    <script type="text/javascript" src="https://raw.githubusercontent.com/santoshanand/ripple-effect/master/lib/kube/js/kube.js"></script>
     <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
